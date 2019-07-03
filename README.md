@@ -17,11 +17,11 @@
 
 ![Cannabis Users](images/cannabis.jpg "Cannabis Leaf")
 
-* Our Team’s goal was to find the best machine learning model to predict cannabis users when looking at features such personality traits and demographics.
+* Find the best machine learning model to predict whether an individual is a cannabis user when looking at features such as personality traits and demographics.
  
-* Leverage machine learning methods to analyze relationships between each criterion and its likelihood of leading to drug usage.
+* Leverage machine learning methods to analyze relationships between each criterion and its likelihood of leading to cannabis usage.
  
-* Find and apply the machine learning model with the most accurate prediction the data set and predict the potential risk of cannabis use.
+* Find and apply the machine learning model with the most accurate predictions for the dataset and find the potential risk of cannabis use.
 
 # Defining the Workflow
 
