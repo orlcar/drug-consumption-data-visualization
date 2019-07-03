@@ -123,7 +123,7 @@ There is definitely a relationship among 'Age', 'Gender', 'Education' and 'Drug 
 
 **Prediction**
 
-The target prediction is to determine if the selected features influence the use of cannabis among our data respondents.
+The objective is to determine if the selected features influence the use of cannabis among our data respondents, allowing the prediction of cannabis use based on the selected features.
 
 Given the nature of our features after several modifications; as well as the problems we encountered along the way, a simple logistic regression algorithm was found to be the most effective model for our target prediction.
 
@@ -204,11 +204,11 @@ The model does not appear reliable for identifying cannabis users on an individu
 
 **Data Processing**
 
-We changed the data multiple types, too much time spent just doing that.
+We changed the data multiple times during our investigation. Too much time was spent just doing that.
  
-Finding validation data that would match the test/train data. Hours were spent researching it to little success, we had to randomize the personality traits to make it work.
+Another challenge was finding validation data that would match the test/train data. Hours were spent researching it to little success. We had to randomize the personality traits to make it work.
 
 
 **Modeling & Evaluating**
 
-Due to all the changes to the data obtaining the models final scores took time.
+Due to all of the changes to the data, obtaining the final scores for the models took a lot of time.
