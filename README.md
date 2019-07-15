@@ -88,7 +88,7 @@ We created a correlation matrix as a heatmap.
 
 ### Gradient Boosting Classifier
 
-We used Gradient Boosting Classifier to see which features are important.
+We used the Gradient Boosting Classifier to see which features are important.
 
 ![Feature Importance Plot](images/feature_Importance.png)
 
