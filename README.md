@@ -33,10 +33,10 @@
 # Data Gathering
 
 * Obtain a training/testing data set
-    * Source: ["Drug consumption (quantified) Data Set" from the UCI Machine Learning Repository] (https://archive.ics.uci.edu/ml/datasets/Drug+consumption+%28quantified%29)
+    * Source: "Drug consumption (quantified) Data Set" from the UCI Machine Learning Repository (https://archive.ics.uci.edu/ml/datasets/Drug+consumption+%28quantified%29)
    
 * Obtain a validation data set
-    * [National Survey on Drug Use and Health, 2017 (NSDUH-2017-DS0001)] (https://datafiles.samhsa.gov/study-dataset/national-survey-drug-use-and-health-2017-nsduh-2017-ds0001-nid17939)
+    * National Survey on Drug Use and Health, 2017 (NSDUH-2017-DS0001) (https://datafiles.samhsa.gov/study-dataset/national-survey-drug-use-and-health-2017-nsduh-2017-ds0001-nid17939)
 
 # Data Processing
 
@@ -52,7 +52,7 @@
 * Pickle
 * Seaborn
 
-** Features for Machine Learning Analysis **
+**Features for Machine Learning Analysis**
 * Demographics: age, gender, education
 * Personality Traits: neuroticism, extraversion, openness, agreeableness, conscientiousness, impulsiveness, sensation
 * Drug: Cannabis
@@ -90,7 +90,7 @@ We created a correlation matrix as a heatmap.
 
 We used Gradient Boosting Classifier to see which features are important.
 
-![Feature Importance Plot](images/feature_importance.png)
+![Feature Importance Plot](images/feature_Importance.png)
 
 ![Feature Importance](images/featuredf.png)
 
@@ -208,15 +208,15 @@ This model gave us the best results for predicting cannabis use.
 
 ![SVC Model Results](images/1svc.png)
 
-# Challenges During the Project
+# Challenges
 
-** Data Processing **
+**Data Processing**
 
 Finding data to use for validation that would match the features in the testing/training data was difficult. 
 Hours were spent searching for a usable dataset to little success. We found only one dataset with demographic information that matched the testing/training data set. 
 We had to randomize the personality traits to make that dataset usable for validation.
 
-** Modeling & Evaluating **
+**Modeling & Evaluating**
 
 Creating a usable deep learning neural network model was a difficult task. A lot of time was spent creating and testing deep neural network models, but the best model
 had significant loss and overfitting when assessing the test sample data. There might not have been enough features or enough features strongly associated with
