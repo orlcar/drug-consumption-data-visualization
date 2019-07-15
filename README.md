@@ -33,10 +33,10 @@
 # Data Gathering
 
 * Obtain a training/testing data set
-    * Source: "Drug consumption (quantified) Data Set" from the UCI Machine Learning Repository (https://archive.ics.uci.edu/ml/datasets/Drug+consumption+%28quantified%29)
+    * Source: "Drug consumption (quantified) Data Set" from the UCI Machine Learning Repository - https://archive.ics.uci.edu/ml/datasets/Drug+consumption+%28quantified%29
    
 * Obtain a validation data set
-    * National Survey on Drug Use and Health, 2017 (NSDUH-2017-DS0001) (https://datafiles.samhsa.gov/study-dataset/national-survey-drug-use-and-health-2017-nsduh-2017-ds0001-nid17939)
+    * National Survey on Drug Use and Health, 2017 (NSDUH-2017-DS0001) - https://datafiles.samhsa.gov/study-dataset/national-survey-drug-use-and-health-2017-nsduh-2017-ds0001-nid17939
 
 # Data Processing
 
@@ -77,7 +77,7 @@ skewed to "White".
 
 #  Data Visualization
 
-**Pandas and Matplotlib**
+## Pandas and Matplotlib
 
 ### Correlation Matrix
 After normalizing the data and selecting the relevant features, we proceeded to get the correlation between the selected features.
@@ -112,24 +112,24 @@ Looking at education levels, the majority of cannabis users attended college but
 
 ![Education Levels Plot](images/education_levels.png)
 
-### Violin Plot
-
-![Age Gender Violin Plot](images/factorplot.png)
+### Violin Plot for Cannabis Users based on Age and Gender
 
 Although male cannabis users outnumber female cannabis users, there are more older female cannabis users than male cannabis users.
 
-### Age and Education Levels for Cannabis Users
+![Age Gender Violin Plot](images/factorplot.png)
 
-![Age Education Box Plot](images/boxplot.png)
+### Age and Education Levels for Cannabis Users
 
 If we look at age and education levels of cannabis uers only, we can see that on average, the youngest cannabis users
 have likely left school at age 18 or went to college and did not get their degrees.  The oldest cannabis users on average tend
 to have doctorate degrees.
 
-![Cannabis Use Likeihood Bar Graph](images/likelihood_chart.png)
+![Age Education Box Plot](images/boxplot.png)
 
 There are trends among "Age", "Gender", "Education" and "Cannabis Consumer". We combined the categories together to visualize the trends. Most cannabis users tend
 to be male, young, and  have not finished high school or college.
+
+![Cannabis Use Likeihood Bar Graph](images/likelihood_chart.png)
 
 ***
 
@@ -189,13 +189,13 @@ This model gave us the best results for predicting cannabis use.
 ## Train Data vs Validation Data
 
 * Deep Neural Network Train
-* Loss: 0.3168505177549693
-* Accuracy: 0.9270833134651184
+	* Loss: 0.3168505177549693
+	* Accuracy: 0.9270833134651184
 
 
 * Deep Neural Network Test
-* Loss: 0.5623318915781768
-* Accuracy: 0.842391312122345
+	* Loss: 0.5623318915781768
+	* Accuracy: 0.842391312122345
 
 ![Deep Neural Network Loss](images/1loss.png)
 ![Deep Neural Network Validation](images/1validation.png)
