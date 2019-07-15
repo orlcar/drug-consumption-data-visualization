@@ -33,10 +33,10 @@
 # Data Gathering
 
 * Obtain a training/testing data set
-    * Source: "Drug consumption (quantified) Data Set" from the UCI Machine Learning Repository - https://archive.ics.uci.edu/ml/datasets/Drug+consumption+%28quantified%29
+    * "Drug consumption (quantified) Data Set" from the UCI Machine Learning Repository: https://archive.ics.uci.edu/ml/datasets/Drug+consumption+%28quantified%29
    
 * Obtain a validation data set
-    * National Survey on Drug Use and Health, 2017 (NSDUH-2017-DS0001) - https://datafiles.samhsa.gov/study-dataset/national-survey-drug-use-and-health-2017-nsduh-2017-ds0001-nid17939
+    * National Survey on Drug Use and Health, 2017 (NSDUH-2017-DS0001): https://datafiles.samhsa.gov/study-dataset/national-survey-drug-use-and-health-2017-nsduh-2017-ds0001-nid17939
 
 # Data Processing
 
@@ -106,13 +106,13 @@ Between the 2 genders, the number of male users surpass the number of female use
 
 ![Plot by Gender](images/cannabis_by_gender.png)
 
-### Cannabis Consumption Rate across Education Levels
+### Cannabis Consumption Rate Across Education Levels
 
 Looking at education levels, the majority of cannabis users attended college but did not get their degrees.
 
 ![Education Levels Plot](images/education_levels.png)
 
-### Violin Plot for Cannabis Users based on Age and Gender
+### Violin Plot for Cannabis Users Based on Age and Gender
 
 Although male cannabis users outnumber female cannabis users, there are more older female cannabis users than male cannabis users.
 
