@@ -5,7 +5,7 @@
 **"Dangerous with Data" Group**
 
 * Orlando Carpio - Team Leader - Machine Learning
-* Yuan Chai Data - Visualizations
+* Yuan Chai - Data Visualizations
 * Ruth Mary Jimenez - Data Processing
 
 **Tableau Dashboard**
