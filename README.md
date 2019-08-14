@@ -220,7 +220,7 @@ We had to randomize the personality traits to make that dataset usable for valid
 
 Creating a usable deep learning neural network model was a difficult task. A lot of time was spent creating and testing deep neural network models, but the best model
 had significant loss and overfitting when assessing the test sample data. There might not have been enough features or enough features strongly associated with
-cannabis use to create a usuable deep neural network model.
+cannabis use to create a usable deep neural network model.
 
 In addition, during our investigation, we modified the data multiple times because we found during the machine learning model testing process that the data needed to 
 be changed to allow machine learning analysis. We had to decide whether to use the original scaled data values or rescale the values ourselves. We also had to test 
