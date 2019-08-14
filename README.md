@@ -235,4 +235,4 @@ identifying cannabis users correctly in the original dataset.
 
 However, when the model was applied to the validation test dataset, it incorrectly labels a significant number of cannabis users as individuals who do not consume cannabis. 
 The model does not appear reliable for identifying cannabis users on an individual basis. The model could be useful for classifying populations as potential targets 
-for public health outreach to preventative cannabis abuse or cannabis addiction rehabilitation.
+for public health outreach for preventative cannabis abuse or cannabis addiction rehabilitation.
