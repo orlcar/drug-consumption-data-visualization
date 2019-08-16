@@ -46,7 +46,7 @@
 * Numpy
 * Warnings
 * Tensorflow
-* Sci-kit Learn
+* Scikit-learn
 * Matplotlib
 * Scipy
 * Pickle
